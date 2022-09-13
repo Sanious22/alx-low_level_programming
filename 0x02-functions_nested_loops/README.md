@@ -1,0 +1,1 @@
+txt files, sometimes referred to as codebooks, provide the necessary information, or metadata, needed to make Digital Research Objects (DROs) (numerical data, photographs, spread sheets, movies) have added value.
