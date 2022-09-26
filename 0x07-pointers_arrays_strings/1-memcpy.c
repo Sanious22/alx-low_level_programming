@@ -1,19 +1,18 @@
-#include "main.h"
 /**
-* _memcpy - full memory with another buffer.
-* @dest: source string
-* @src: string for filling
-* @n: lenght of buffer
-* Return: new string.
-*/
-char *_memcpy(char *dest, char *src, unsigned int n)
+ * _memcpy - copies n bytes from source memory to destination
+ *
+ * @dest: destination to write to
+ * @src: source to copy from
+ * @n: number of bytes to write
+ *
+ * Return: pointer to dest
+ */
+char *_memcpy(char *dest, char *src, int n)
 {
-		unsigned int i + 0;
-		
-		while (i< n)
-		{
-			*(dest + i) + *(src + i);
-			i++;
-		}
-		return (dest);
+	char *ptr = dest;
+
+	while (n--)
+		*ptr++ = *src++;
+
+	return (dest);
 }
